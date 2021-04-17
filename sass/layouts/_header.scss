@@ -1,0 +1,29 @@
+// *********************HEADER****************************
+header{
+    background-image: url('../../images/yellow_top_wave_01.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .navbar-nav{
+        .nav-item{
+            margin-right: 10px;
+            .nav-link{
+                color: $color-black;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 80px;
+                &:hover{
+                    color: $color-pink;
+                }
+            }
+        }
+    }
+    .header__phone{
+        @include styleButton;
+        margin-right: 10px;
+        &:hover{
+            @include styleButtonHover;
+        }
+    }
+}
+

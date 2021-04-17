@@ -1,0 +1,26 @@
+//Helper
+@import './helper/variables';
+@import './helper/mixin';
+
+// Vendor
+
+// Base
+@import './base/reset';
+@import './base/customize';
+
+// Components
+@import './components/button';
+
+// Layout
+@import './layouts/header';
+@import './layouts/about';
+@import './layouts/teachers';
+@import './layouts/form';
+@import './layouts/footer';
+// @import './layouts/products';
+
+// Pages
+
+// Theme
+
+// main la file chinh de bien dich, cac file con phia tren chi import vo

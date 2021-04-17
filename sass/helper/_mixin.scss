@@ -1,0 +1,14 @@
+@mixin styleButton {
+    padding: 10.8px 20.5px;
+    color: $color-white;
+    background-color: $color-pink;
+    border-radius: 50px;  
+    border: 1px solid $color-pink;
+}
+@mixin styleButtonHover {
+    padding: 10.8px 20.5px;
+    color: $color-pink;
+    background-color: $color-white;
+    border-radius: 50px;  
+    border: 1px solid $color-pink; 
+}

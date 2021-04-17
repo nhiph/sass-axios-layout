@@ -1,0 +1,25 @@
+// *********************TECHAERS****************************
+.teacher{
+    background-color: #DCD1F0;
+    .card{
+        border-radius: 10px;
+        margin: 20px;
+        .card-body{
+            .card-title{
+                font-size: $fs-card-title;
+                color: $color-pink;
+                font-family: $ff-mon;
+                font-weight: $fw-600;
+            }
+            .card-text{
+                font-family: $ff-mon;
+                font-size: $fs-card-text;
+                color: $color-black;
+                font-weight: $fw-600;
+            }
+            .card-foot{
+                font-family: $ff-ro;
+            }
+        }
+    }
+}

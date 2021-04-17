@@ -1,0 +1,17 @@
+// *********************FORM****************************
+form{
+    margin-top: 40%;
+    margin-left: 15%;
+    width: 80%;
+    background-color: white;
+    box-shadow: 3px 3px 10px 2px #aaaaaa;
+    padding: 50px 50px;
+    border-radius: 15px;
+    .form__btn{
+        @include styleButton;
+        margin-right: 10px;
+        &:hover{
+            @include styleButtonHover;
+        }
+    }
+}

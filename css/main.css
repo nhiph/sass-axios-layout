@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  background-image: url("../../images/yellow_top_wave_01.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: #181818;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #B84B83;
+}
+
+header .header__phone {
+  padding: 10.8px 20.5px;
+  color: white;
+  background-color: #B84B83;
+  border-radius: 50px;
+  border: 1px solid #B84B83;
+  margin-right: 10px;
+}
+
+header .header__phone:hover {
+  padding: 10.8px 20.5px;
+  color: #B84B83;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid #B84B83;
+}
+
+.about .about__left {
+  margin-top: 15%;
+}
+
+.about .about__left .about__title {
+  font-size: 16.5px;
+  color: #B84B83;
+  font-weight: 600;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.about .about__left .about__logan {
+  color: #181818;
+  font-size: 57px;
+  font-weight: 600;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.teacher {
+  background-color: #DCD1F0;
+}
+
+.teacher .card {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.teacher .card .card-body .card-title {
+  font-size: 11.25px;
+  color: #B84B83;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.teacher .card .card-body .card-text {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 23.25px;
+  color: #181818;
+  font-weight: 600;
+}
+
+.teacher .card .card-body .card-foot {
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  margin-top: 40%;
+  margin-left: 15%;
+  width: 80%;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 10px 2px #aaaaaa;
+          box-shadow: 3px 3px 10px 2px #aaaaaa;
+  padding: 50px 50px;
+  border-radius: 15px;
+}
+
+form .form__btn {
+  padding: 10.8px 20.5px;
+  color: white;
+  background-color: #B84B83;
+  border-radius: 50px;
+  border: 1px solid #B84B83;
+  margin-right: 10px;
+}
+
+form .form__btn:hover {
+  padding: 10.8px 20.5px;
+  color: #B84B83;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid #B84B83;
+}
+
+footer {
+  padding-top: 50px;
+  background-image: url("../../images/footer_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+footer .footer__title {
+  color: white;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 23.25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+footer .footer__item .footer_colFirst {
+  color: white;
+  font-size: 13.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer .footer__item .footer_colFirst i {
+  padding-right: 10px;
+}
+
+footer .footer__item .footer_colFirstFoot .navbar-nav .nav-item {
+  display: inline;
+}
+
+footer .footer__item .footer_colFirstFoot .navbar-nav .nav-item .nav-link i {
+  color: white;
+}
+
+footer .footer__item .footer_colFirstFoot .navbar-nav .nav-item .nav-link i:hover {
+  color: #181818;
+}
+
+footer .footer__item .footer_colSe {
+  list-style: none;
+}
+
+footer .footer__item .footer_colSe li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer .footer__item .footer_colSe li a:hover {
+  color: lightgrey;
+}
+
+footer .footer__item .email {
+  padding: 10.8px 20.5px;
+  color: white;
+  background-color: #B84B83;
+  border-radius: 50px;
+  border: 1px solid #B84B83;
+}
+
+footer .footer__item .email:focus {
+  border: 1px solid white;
+  outline: none;
+}
+
+footer .footer__item .subcribe {
+  margin-top: 15px;
+  padding: 10.8px 20.5px;
+  color: #B84B83;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid #B84B83;
+  color: #181818;
+}
+
+footer .footer__item .subcribe:hover {
+  background-color: #B84B83;
+  color: white;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=main.css.map */

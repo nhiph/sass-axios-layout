@@ -1,0 +1,20 @@
+
+// *********************ABOUT US****************************
+.about{
+    .about__left{
+        margin-top: 15%;
+        .about__title{
+            font-size: 16.5px;
+            color: $color-pink;
+            font-weight: $fw-600;
+            font-family: $ff-mon;
+        }
+        .about__logan{
+            color: $color-black;
+            font-size: 57px;
+            font-weight: $fw-600;
+            font-family: $ff-mon;
+        }
+    }
+    
+}
